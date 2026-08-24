@@ -1,0 +1,40 @@
+值和变量
+类型：（type） 分为两大类    分为值类型和引用类型
+ 值类型又分为以下类型
+1.数字类型    2.布尔类型    3.字符类型
+
+1.数字类型（整数类型 和 浮点数类型）    充分利用存储空间有不同的类型，通过大小去选择利用的
+int v1 = 1；    （1是字面量，v1就是变量，int是类型标识）
+long v2 = 1L；
+float v3 = 1.1f;
+double v4 = 1.1;
+
+2.布尔类型    用来判断真假，用于逻辑判断
+bool b1 = true;
+bool b2 = false;
+
+3.字符类型
+char c1 = 'A'；
+char c2 = '你'；
+
+ 引用类型   （引用部分   实际数据部分） 
+1.字符串类型（string）   2.数组类型（array）    3.自定义class类型
+
+1.字符串类型
+string s1 = "ABC";
+string s2 = "你好";
+string s3 = "A";
+
+2.数组类型（array）
+int[] ints1 = new int[2];
+int[] ints2 = new int[2](1,2);
+char[] chars1 = new char[3]('A','B','C');
+int[,] ints2d = new int[2,3]{(1,2,3),(4,5,6)}    (2维数组)
+
+3.自定义class类型
+
+
+变量（variable）
+先声明  后使用
+有类型  只能存储该类型的值
+变量名满足命名规则
