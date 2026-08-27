@@ -3,3 +3,13 @@
 1.数字运算符
 int v1 = 1 + 2;
 int v2 = 1 - 2;
+int v3 = 2L * 4L;
+double v4 = 9.9/3.3;
+int v5 = -1;
+
+(如果两侧的不同类型，会强制转换为同一类型再去进行计算)
+long v6 = 1L + 2;
+
+  {大小排序}  int < long < flot < double
+(把int类型强制转换为long类型，是把一个范围小的转换到范围大的)
+long v7 = (long)1;
