@@ -25,4 +25,6 @@ float v12 = 5/(float)2;
 
 还有很多运算符都是使用函数的方式进行计算的了 
 
-int x = 1l
+int x = 1;
+int y = 2;
+int max = (x>y) ? x:y;
